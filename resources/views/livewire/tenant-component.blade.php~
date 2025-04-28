@@ -1,0 +1,13 @@
+<?php
+
+use Livewire\Volt\Component;
+
+new class extends Component {
+    public $message = 'Hello World!';
+};
+
+?>
+
+<div>
+    <h1 class="text-4xl font-bold text-white bg-blue-500 p-4">{{ $message }}</h1>
+</div>
